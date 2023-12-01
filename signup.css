@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#outerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#innerbox{
+    display: flex;   
+    background-color: white;
+    width: 60%;
+    margin-top: 10px;
+    height: 500px;
+}
+
+.leftinnerbox{
+    background-color: #2874F0;
+    color: white;
+    padding-top: 40px;
+    padding-left: 30px;
+    width: 300px;
+    /* font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 12px;*/
+} 
+
+.rightinnerbox{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}

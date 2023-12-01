@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP</title>
+    <script src= "https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <div id="container"></div>
+
+    <div id="outerbox">
+        <div id="innerbox">
+            <div class= "leftinnerbox" style="background-color: #2874F0; color: white; ">
+
+                <p style="font-family: sans-serif; font-weight: bold; font-size: 25px;">Looks like you're new here!</p>
+
+                <span id= "wishlist"><p style="font-family: sans-serif; color: #DBDBDE; padding-top: 20px;">Sign up with your mobile number to get started</p>
+                </span>
+            </div>
+
+            <div class="rightinnerbox">
+
+                <div>
+                    <input type="text" placeholder="Enter Mobile Number ">
+                </div>
+                
+                <div>
+                    <input type="text" placeholder="Enter Your Name">
+                </div>
+                    
+                    <p>By continuing, you agree to Flipkart's Terms of Use and Privacy Policy.</p>
+
+                    <div style="display: flex; justify-content: center; margin-top: 10px;">
+                        <button style="background-color: #FB641B; border: none; color: white; font-size: 16px; width: 400px; height:40px; border-radius: 3px;"> CONTINUE </button>
+                    </div>
+                    <div style="display: flex; justify-content: center; box-shadow: 2px 2px 5px black; margin-top: 15px ;">
+                        <button style="border: none ; width: 400px; height:40px; color: #2874F2;background-color: white; font-weight: bold; font-family: sans-serif; font-size: 15px;border-radius: 3px; ">Existing User? Login </button>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+</body>
+</html> 
+
+<script>
+    $(function(){
+        $('#container').load("./Navbar.html");
+    });
+</script>   

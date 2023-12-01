@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%
+}
+
+nav{
+    background-color: white;
+}
+#nav{
+    display: flex;
+ justify-content: space-around;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ background-color: white;
+ width: 90%;
+margin: auto;
+}
+
+body{
+    background-color: #F1F2F4;
+}
+
+#nav1{
+    display: flex;
+    flex-direction: column;    /*since we want flipkart and explore plus arranged in coloumn so we need to specify the direction as   column because by default it is row*/
+}
+#logo_name{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #2A55E5;
+    font-weight: bold;
+}
+
+#search_bar{
+    height: 30px;
+    width: 300px;
+    border: none;
+    padding-left: 12px;
+    background-color: #F0F5FF;
+}
+
+.navtab{
+    display: flex;
+    align-items: center;
+}
+
+#categories{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6px;
+    margin: 12px;
+    /* margin: auto; */
+    width: 95%;
+    /* margin: auto; */
+    background-color: white;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+#categories > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+    }
+
+/* id name with categories having a div tag and then an img tag, using this we need to set the height and width of the imagee */
+#categories > div > img{       
+    height: 70px;
+    width: 70px;
+}
+
+#categories > div > p{
+    margin-top:2px;
+}

@@ -1,11 +1,11 @@
-*{
-    margin: 0%;
-    padding: 0%
+#para1{
+    border: 4px solid orange;
 }
 
 nav{
     background-color: white;
 }
+
 #nav{
     display: flex;
  justify-content: space-around;
@@ -13,17 +13,18 @@ nav{
  padding-bottom: 10px;
  background-color: white;
  width: 90%;
-margin: auto;
+ margin: auto;
+}
+
+#nav1{
+    display: flex;
+    flex-direction: column;
 }
 
 body{
     background-color: #F1F2F4;
 }
 
-#nav1{
-    display: flex;
-    flex-direction: column;    /*since we want flipkart and explore plus arranged in coloumn so we need to specify the direction as   column because by default it is row*/
-}
 #logo_name{
     font-size: 20px;
     font-family: sans-serif;
@@ -32,12 +33,12 @@ body{
     font-weight: bold;
 }
 
-#search_bar{
-    height: 30px;
-    width: 300px;
+#input_data{
     border: none;
-    padding-left: 12px;
-    background-color: #F0F5FF;
+    width: 500px;
+    height: 20px;
+   padding-left: 12px;
+   background-color: #F0F5FF;
 }
 
 .navtab{
@@ -45,33 +46,74 @@ body{
     align-items: center;
 }
 
+#searchbar{
+    background-color: #F0F5FF;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+option{
+    font-size: 15px; 
+    font-family: sans-serif;
+}
+
+select{
+    border: none;
+    font-size: 15px; 
+    font-family: sans-serif;
+}
+
+
 #categories{
     display: flex;
     justify-content: space-around;
     margin-top: 6px;
     margin: 12px;
-    /* margin: auto; */
+    margin: auto;
     width: 95%;
-    /* margin: auto; */
+    margin: auto;
     background-color: white;
     margin-top: 10px;
     font-family: sans-serif;
 }
-#categories > div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 10px;
-    }
 
-/* id name with categories having a div tag and then an img tag, using this we need to set the height and width of the imagee */
-#categories > div > img{       
-    height: 70px;
-    width: 70px;
+
+
+
+
+#categories > div > img{
+   height: 70px;
+   width: 60px;
+   background-color: white;
+}
+
+#categories > div{
+display: flex;
+flex-direction: column;
+align-items: center;
+font-weight: bold;
+font-size: 14px;
+padding: 10px;
 }
 
 #categories > div > p{
-    margin-top:2px;
+    padding-top: 10px;
+}
+
+
+li{
+    list-style: none;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+
+.heading{
+    color: gray;
 }
